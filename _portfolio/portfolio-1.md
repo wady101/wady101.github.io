@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "IMEC: A Memory-Efficient Convolution Algorithm For Quantised Neural Network Accelerators"
+excerpt: "Talk given in IEEE ASAP 2022 for a long paper"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Link to slides :
+<object data="https://github.com/wady101/wady101.github.io/tree/master/_portfolio/1.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/wady101/wady101.github.io/tree/master/_portfolio/1.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/wady101/wady101.github.io/tree/master/_portfolio/1.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
