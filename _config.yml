@@ -161,9 +161,7 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
+  - assets
   - config
   - gulpfile.js
   - log
@@ -292,6 +290,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jemoji
+  - jekyll-remote-theme
   # - jekyll-theme-yat
 # mimic GitHub Pages with --safe
 whitelist:
@@ -301,6 +300,9 @@ whitelist:
   - jekyll-feed
 
 # theme: jekyll-theme-yat
+
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Archives
 #  Type
