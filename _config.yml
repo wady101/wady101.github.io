@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
 # Basic Site Settings
@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Eashan Wadhwa"
-  pronouns         : # example: "she/her"
+  pronouns         : # example: "she/her"  
   bio              : "Software Engineer at ARM"
   location         : "Cambridge, United Kingdom"
   employer         : "Trinity College Dublin"
   uri              : # URL
-  email            : "wadhwae(at)tcd.ie"
+  email            : "wadhwae(at)tcd.ie" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,8 +44,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "wady101"
-  kaggle           : # Username
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   # bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -284,8 +284,6 @@ permalink: /:categories/:title/
 timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-remote_theme: jekyll/minima
-
 # Plugins
 plugins:
   - jekyll-paginate
@@ -293,7 +291,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
+  - jemoji
   # - jekyll-theme-yat
 # mimic GitHub Pages with --safe
 whitelist:
@@ -301,10 +299,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
-
-minima:
-  skin: dark # or auto if you want it to switch with your system settings.
 
 # theme: jekyll-theme-yat
 
