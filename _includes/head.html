@@ -13,8 +13,17 @@
 <script>
     (function() {
         const viewportMeta = document.getElementById('viewport-meta');
-        const deviceWidth = window.innerWidth; // Get the device's screen width in pixels
-        const initialScale = Math.min(deviceWidth / 1024, 1.1); // Calculate scale with a slight zoom-in (max scale 1.1)
+        const deviceWidth = window.innerWidth; // Get the device's screen width
+        let initialScale = deviceWidth / 1024; // Keep default scale for larger screens (e.g., desktop/tablets)
+
+        // Check if the device width is mobile (e.g., width less than 768px)
+        if (deviceWidth <= 1000) {
+            initialScale = 1.5; // Zoom in more for mobile devices
+        } else {
+            initialScale = deviceWidth / 1024; // Keep default scale for larger screens (e.g., desktop/tablets)
+        }
+
+        // Update the viewport meta tag with the appropriate initial scale
         viewportMeta.setAttribute('content', `width=1024, initial-scale=${initialScale}, maximum-scale=${initialScale}, user-scalable=no`);
     })();
 </script>
