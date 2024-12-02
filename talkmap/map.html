@@ -6,7 +6,15 @@
 
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
-    	<meta name="viewport" content="width=1024, initial-scale=1.0">
+        <meta name="viewport" id="viewport-meta" content="width=1024">
+        <script>
+            (function() {
+                const viewportMeta = document.getElementById('viewport-meta');
+                const deviceWidth = window.innerWidth; // Get the device's screen width in pixels
+                const initialScale = Math.min(deviceWidth / 1024, 1.1); // Calculate scale with a slight zoom-in (max scale 1.1)
+                viewportMeta.setAttribute('content', `width=1024, initial-scale=${initialScale}, maximum-scale=${initialScale}, user-scalable=no`);
+            })();
+        </script>
     	<link rel="stylesheet" href="leaflet_dist/screen.css" />
 
     	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
