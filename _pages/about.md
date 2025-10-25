@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey! I am a passionate Senior Software Engineer with a keen enthusiasm for crafting efficient and robust solutions in C and C++. At times dabble in rust and python.
+Hello! I am someone who enjoys tackling complex problems through efficient and robust solutions in C and C++, with occasional forays into Rust and Python.
 
 My research and programming interests include developing models, hobby-compilers, FPGA-tooling and embedded-drivers (in no particular order 😉).
 

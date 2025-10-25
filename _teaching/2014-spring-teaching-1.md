@@ -8,4 +8,4 @@ date: 2022-04-01
 location: "Dublin, Ireland"
 ---
 
-Corrected assignments and final exam of Probability and Statistics EEU33E03. Link [here](https://www.tcd.ie/media/tcd/engineering/pdfs/current-students/EEU33E03-2.pdf)
+Corrected assignments and final exam for Probability and Statistics (EEU33E03). Link [here](https://www.tcd.ie/media/tcd/engineering/pdfs/current-students/EEU33E03-2.pdf)
